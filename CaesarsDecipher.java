@@ -1,5 +1,5 @@
 /**
- * This is a Caesar¡¯s decipher that automatically find the most likely key
+ * This is a CaesarÂ¡Â¯s decipher that automatically find the most likely key
  * By finding the smallest delta between the average use of the letters on
  * English texts and the encrypted text with an offset k.
  * @date 11/08/2022
@@ -38,7 +38,6 @@ public class CaesarsDecipher {
 				curMin = delta;
 				likelyKey = k;
 			}
-			//freq[1][i] = delta;
 			k++;
 		}
 		System.out.print("Most likely key (shifted forward): " + likelyKey);
