@@ -1,3 +1,5 @@
+// Using the CPUID opcode in X86 to get the CPU model name
+
 #include <stdio.h>
 
 int main() {
